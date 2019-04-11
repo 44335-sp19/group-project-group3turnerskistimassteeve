@@ -5,3 +5,15 @@
 .nav-link:hover {
     color: darkslategray !important;
 }
+
+#coltonprog {
+    text-align: center;
+}
+
+#coltondesign {
+    text-align: center;
+}
+
+hr {
+    height: 1px;
+}
