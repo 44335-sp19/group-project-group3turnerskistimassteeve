@@ -35,3 +35,13 @@ a:hover {
 .jumbotron {
     background-color: #006747;
 }
+
+#coltonpic {
+    border-radius: 50%;
+    height: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
