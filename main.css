@@ -35,3 +35,46 @@ a:hover {
 .jumbotron {
     background-color: #006747;
 }
+.flip-box {
+    margin-top: 15em;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  /*border: 1px solid #f1f1f1;*/
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+/* positions the front and back of flip boxes*/
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center; 
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* horizontal flip */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Positions the front and back of flip boxes */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* Styles the front of the flip box*/
+.flip-box-front {
+  background-color: #006747;
+  color: white;
+}
+
+/* Styles the back of the flip box */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
