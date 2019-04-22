@@ -35,6 +35,9 @@ a:hover {
 .jumbotron {
     background-color: #006747;
 }
+.jumbo-down {
+    margin-top: 4em;
+}
 .flip-box {
     margin-top: 15em;
   background-color: transparent;
@@ -54,6 +57,15 @@ a:hover {
 }
 
 #coltonpic {
+    border-radius: 50%;
+    height: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#profile-blank {
     border-radius: 50%;
     height: 10em;
     display: block;
