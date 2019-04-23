@@ -44,7 +44,7 @@ a:hover {
   width: 300px;
   height: 200px;
   /*border: 1px solid #f1f1f1;*/
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  perspective: 1000px; 
 }
 /* positions the front and back of flip boxes*/
 .flip-box-inner {
@@ -73,6 +73,11 @@ a:hover {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+}
+.headOver {
+    text-align: center;
+    border: 10px solid #000000;
+   
 }
 
 * { box-sizing: border-box; }
