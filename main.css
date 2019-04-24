@@ -34,6 +34,8 @@ a:hover {
 
 .jumbotron {
     background-color: #006747;
+    color: #FFFFFF;
+    border: 5px solid #000000;
 }
 .jumbo-down {
     margin-top: 4em;
@@ -67,6 +69,7 @@ a:hover {
 }
 #profile-blank {
     border-radius: 50%;
+    border: 3px solid #000000;
     height: 10em;
     display: block;
     margin-left: auto;
@@ -76,8 +79,13 @@ a:hover {
 }
 .headOver {
     text-align: center;
-    border: 10px solid #000000;
-   
+    border: 5px solid #000000;
+    background-color: #006747;
+    color: #FFFFFF;
+}
+
+.border {
+    border: 5px solid #000000;
 }
 
 * { box-sizing: border-box; }
