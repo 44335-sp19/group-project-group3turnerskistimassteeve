@@ -5,11 +5,15 @@ $(document).ready(function () {
         contain: true
       });
 
-    $('#coltonname').click(function () { 
 
-      $('#coltonprogp').css("background-color", "blue");
+    $('#coltonprogp').hide();
+
+    $('#coltonprog').click(function () { 
+
+      $('#coltonprogp').toggle();
       
     });
+
 });
 
 

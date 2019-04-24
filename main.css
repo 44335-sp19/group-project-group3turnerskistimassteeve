@@ -8,10 +8,16 @@
 
 #coltonprog {
     text-align: center;
+    cursor: pointer;
+}
+
+#coltonprogp {
+  text-align: center;
 }
 
 #coltondesign {
     text-align: center;
+    cursor: pointer;
 }
 
 hr {
