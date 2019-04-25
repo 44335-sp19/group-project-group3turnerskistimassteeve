@@ -85,6 +85,7 @@ a:hover {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+    cursor: pointer;
 }
 
 #profile-blank {

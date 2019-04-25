@@ -24,6 +24,16 @@ $(document).ready(function () {
 
 });
 
+document.getElementById('coltonindexpic').addEventListener('mouseover', function(){
+  this.style.transform = 'scale(1.5)';
+  this.style.transition = 'transform .2s';
+});
+
+document.getElementById('coltonindexpic').addEventListener('mouseout', function(){
+  this.style.transform = 'scale(1.0)';
+  this.style.transition = 'transform .2s';
+});
+
 
 
 
