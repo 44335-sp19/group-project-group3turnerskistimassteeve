@@ -14,14 +14,6 @@ $(document).ready(function () {
       
     });
 
-    $('#coltondesignp').hide();
-
-    $('#coltondesign').click(function () { 
-      
-      $('#coltondesignp').toggle();
-      
-    });
-
 });
 
 document.getElementById('coltonindexpic').addEventListener('mouseover', function(){
@@ -34,6 +26,11 @@ document.getElementById('coltonindexpic').addEventListener('mouseout', function(
   this.style.transition = 'transform .2s';
 });
 
+$(document).ready(function(){
+  $("#button2Hide").click(function(){
+    $(".p2").toggle();
+  });
+});
 
 
 
