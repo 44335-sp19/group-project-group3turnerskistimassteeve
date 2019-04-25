@@ -8,20 +8,25 @@ $(document).ready(function () {
 
     $('#coltonprogp').hide();
 
-    $('#coltonprog').click(function () { 
+    $('#coltonprog').click(function () {
 
       $('#coltonprogp').toggle();
-      
+
     });
 
     $('#coltondesignp').hide();
 
-    $('#coltondesign').click(function () { 
+    $('#coltondesign').click(function () {
 
       $('#coltondesignp').toggle();
-      
+
     });
 
+});
+$(document).ready(function(){
+  $("#button2Hide").click(function(){
+    $(".p2").toggle();
+  });
 });
 
 document.getElementById('coltonindexpic').addEventListener('mouseover', function(){
@@ -59,9 +64,3 @@ $(document).ready(function(){
     $(".p2").toggle();
   });
 });
-
-
-
-
-
-
