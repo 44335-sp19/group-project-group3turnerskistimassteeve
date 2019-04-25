@@ -14,16 +14,13 @@ $(document).ready(function () {
       
     });
 
-    $('#coltondesignp').hide();
-
-    $('#coltondesign').click(function () { 
-      
-      $('#coltondesignp').toggle();
-      
-    });
-
 });
-$('button1').click(function())
+
+$(document).ready(function(){
+  $("#button2Hide").click(function(){
+    $(".p2").toggle();
+  });
+});
 
 
 
