@@ -59,8 +59,4 @@ document.getElementById('kenyaindexpic').addEventListener('mouseout', function()
   this.style.transition = 'transform .2s';
 });
 
-$(document).ready(function(){
-  $("#button2Hide").click(function(){
-    $(".p2").toggle();
-  });
-});
+
