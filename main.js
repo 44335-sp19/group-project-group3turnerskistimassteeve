@@ -14,6 +14,14 @@ $(document).ready(function () {
       
     });
 
+    $('#coltondesignp').hide();
+
+    $('#coltondesign').click(function () { 
+      
+      $('#coltondesignp').toggle();
+      
+    });
+
 });
 
 

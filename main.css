@@ -76,6 +76,17 @@ a:hover {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+#coltonindexpic {
+  border-radius: 50%;
+    height: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 #profile-blank {
     border-radius: 50%;
     border: 3px solid #000000;
@@ -171,4 +182,9 @@ body { font-family: sans-serif; }
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+}
+
+#indexjumbo {
+  text-align: center;
+  vertical-align: middle;
 }
