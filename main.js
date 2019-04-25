@@ -15,6 +15,11 @@ $(document).ready(function () {
     });
 
 });
+$(document).ready(function(){
+  $("#button2Hide").click(function(){
+    $(".p2").toggle();
+  });
+});
 
 document.getElementById('coltonindexpic').addEventListener('mouseover', function(){
   this.style.transform = 'scale(1.5)';
@@ -26,11 +31,7 @@ document.getElementById('coltonindexpic').addEventListener('mouseout', function(
   this.style.transition = 'transform .2s';
 });
 
-$(document).ready(function(){
-  $("#button2Hide").click(function(){
-    $(".p2").toggle();
-  });
-});
+
 
 
 
