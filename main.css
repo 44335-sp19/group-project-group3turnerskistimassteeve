@@ -88,6 +88,28 @@ a:hover {
     cursor: pointer;
 }
 
+#cassidyindexpic {
+  border-radius: 50%;
+    height: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
+#kenyaindexpic {
+  border-radius: 50%;
+    height: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+}
+
 #profile-blank {
     border-radius: 50%;
     border: 3px solid #000000;
