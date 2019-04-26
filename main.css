@@ -151,7 +151,13 @@ a:hover {
 }
 .proghead {
     text-align: center;
+    margin-bottom: 1em;
     margin-top: 3em;
+    border-bottom: 1px solid ;
+    
+}
+.progheadSize {
+    font-size: 50px;
 }
 * { box-sizing: border-box; }
 
