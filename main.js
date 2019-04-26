@@ -4,7 +4,7 @@ jQuery(document).ready(function () {
 
   jQuery('#coltonprog').click(function () {
 
-    jQuery('#coltonprogp').toggle();
+    jQuery('#coltonprogp').slideToggle();
 
   });
 
@@ -12,10 +12,18 @@ jQuery(document).ready(function () {
 
   $('#coltondesign').click(function () {
 
-    $('#coltondesignp').toggle();
+    $('#coltondesignp').slideToggle();
 
   });
 
+  $("#coltonpic").click(function(){
+    var coltonpic = $("#coltonpic");
+    coltonpic.animate({left: '+=1em'}, 'fast');
+    coltonpic.animate({top: '+=1em'}, 'fast');
+    coltonpic.animate({left: '-=2em'}, 'fast');
+    coltonpic.animate({top: '-=1em'}, 'fast');
+    coltonpic.animate({left: '+=1em'}, 'fast');
+  });
 });
 
 document.getElementById('coltonindexpic').addEventListener('mouseover', function () {
