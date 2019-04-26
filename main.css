@@ -126,7 +126,7 @@ a:hover {
     background-color: #006747;
     color: #FFFFFF;
 }
-.button {
+.button1 {
     margin-top: 1em;
 }
 
@@ -148,6 +148,10 @@ a:hover {
     padding-bottom: 1em;
     text-align: center;
     border: 3px solid #000000;
+}
+.proghead {
+    text-align: center;
+    margin-top: 3em;
 }
 * { box-sizing: border-box; }
 
