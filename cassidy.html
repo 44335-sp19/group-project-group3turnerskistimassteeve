@@ -53,7 +53,7 @@
                             <p>Design</p>
                         </div>
                         <div class="col">
-                            <img id="profile-blank" src="./images/profile-blank.png" alt="Avatar">
+                            <img id="profile-cassidy" src="./images/cassidy.jpg" alt="Avatar">
                         </div>
                         <div class="col">
                             <h1>Sections</h1>
@@ -116,7 +116,7 @@
                 <div class="col">
                     <div class="column3">
                         <h1>Lorem Ipsum</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        <div id="demo2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
                             been the
                             industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
                             of type
@@ -126,8 +126,21 @@
                             1960s
                             with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
                             desktop
-                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <button class="button3" onclick="myFunction()">Click me!</button>
+                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+                        <button class="button3" onclick="myFunction2()">Click me!</button>
+                        <script>
+                            function myFunction2() {
+                                var but = document.getElementById("demo2");
+                                if (but.style.display === "none") 
+                                {
+                                    but.style.display = "block";
+                                }
+                                else {
+                                    but.style.display = "none";
+                                }
+                            }
+                        
+                        </script>
                     </div>
                 </div>
             </div>
