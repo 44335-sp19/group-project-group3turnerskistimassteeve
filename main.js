@@ -25,6 +25,18 @@ jQuery(document).ready(function () {
     coltonpic.animate({left: '+=1em'}, 'fast');
   });
 });
+$(document).ready(function () {
+  $("#button2Hide").click(function() {
+    $(".p2").toggle();
+  });
+});
+$(document).ready(function() {
+    $(".proghead").hover(function() {
+        $(this).css("color", "green");
+    }, function(){
+        $(this).css("color", "black");
+    });
+});
 
 document.getElementById('coltonindexpic').addEventListener('mouseover', function () {
   this.style.transform = 'scale(1.5)';
@@ -56,9 +68,5 @@ document.getElementById('kenyaindexpic').addEventListener('mouseout', function (
   this.style.transition = 'transform .2s';
 });
 
-$(document).ready(function () {
-  $("#button2Hide").click(function () {
-    $(".p2").toggle();
-  });
-});
+
 
