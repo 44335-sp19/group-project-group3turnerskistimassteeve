@@ -258,3 +258,11 @@ body { font-family: sans-serif; }
   text-align: center;
   vertical-align: middle;
 }
+
+.box-transparent {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(100, 100, 100, 0.6);
+    padding: 20px;
+}
