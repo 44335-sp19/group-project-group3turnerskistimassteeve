@@ -198,6 +198,9 @@ a:hover {
 
 body { font-family: sans-serif; }
 
+.line {
+    border-bottom: 1px solid;
+}
 /* horizontal flip */
 .flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);
