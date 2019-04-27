@@ -54,9 +54,9 @@
                     <img id="coltonpic" src="./images/coltonNew.png" alt="Avatar">
                 </div>
                 <div class="col" style="text-align:right">
-                    <a href="colton.html#coltonprog">Programming</a>
+                    <a id="coltonprogl" href="#">Programming</a>
                     <br>
-                    <a href="colton.html#coltondesign">Design</a>
+                    <a id="coltondesignl" href="#">Design</a>
                 </div>
             </div>
         </div>
@@ -65,15 +65,11 @@
                 <h1 id="coltonprog">Programming</h1>
                 <hr>
                 <p id="coltonprogp">
-                    A Boy was given permission to put his hand into a pitcher to get some filberts. But
-                    he took such a great fistful that he could not draw his hand out again. There he stood, unwilling to
-                    give up a single filbert and yet unable to get them all out at once. Vexed and disappointed he began
-                    to cry.
-
-                    "My boy," said his mother, "be satisfied with half the nuts you have taken and you will easily get
-                    your hand out. Then perhaps you may have some more filberts some other time."
-
-                    Do not attempt too much at once.
+                    Programming is my main area of expertise and I enjoy pulling up an IDE to type out some code. I have
+                    taken many programming courses in school and have found that web-based languages are the most
+                    interesting and fun to me. Developing for the web is awesome becuase you essentially get instant
+                    feedback when you change part of the code. This is especially true if you have a live preview
+                    feature in your IDE.
                 </p>
             </div>
         </div>
@@ -82,15 +78,9 @@
                 <h1 id="coltondesign">Design</h1>
                 <hr>
                 <p id="coltondesignp">
-                    A Boy was given permission to put his hand into a pitcher to get some filberts. But
-                    he took such a great fistful that he could not draw his hand out again. There he stood, unwilling to
-                    give up a single filbert and yet unable to get them all out at once. Vexed and disappointed he began
-                    to cry.
-
-                    "My boy," said his mother, "be satisfied with half the nuts you have taken and you will easily get
-                    your hand out. Then perhaps you may have some more filberts some other time."
-
-                    Do not attempt too much at once.
+                    Design is an important part of any project. I always try to make my work look visually appealing and
+                    easy to navigate. This semester I learned how important UX design really is and how to create a
+                    design that follows UX guidelines.
                 </p>
             </div>
         </div>
@@ -98,8 +88,7 @@
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.0.js"
-        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" 
-        crossorigin="anonymous"></script>
+        integrity="sha256-DYZMCC8HTC+QDr5QNaIcfR7VSPtcISykd+6eSmBW5qo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
@@ -110,6 +99,33 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <!-- Optional JavaScript -->
     <script src="main.js"></script>
+    <script>
+        // Colton JavaScript //
+        document.getElementById('coltonprogl').addEventListener('click', function () {
+            var coltonprog = document.getElementById('coltonprog');
+            coltonprog.animate([
+                // Keyframes
+                { opacity: 0 },
+                { opacity: 1 }
+            ], {
+                    // Timing Options
+                    duration: 1000,
+                });
+        });
+
+        document.getElementById('coltondesignl').addEventListener('click', function () {
+            var coltonprog = document.getElementById('coltondesign');
+            coltonprog.animate([
+                // Keyframes
+                { opacity: 0 },
+                { opacity: 1 }
+            ], {
+                    // Timing Options
+                    duration: 1000,
+                });
+        });
+///////////////////////
+    </script>
 </body>
 
 </html>
