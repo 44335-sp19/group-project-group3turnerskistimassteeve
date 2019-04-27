@@ -162,9 +162,11 @@ a:hover {
 .colflip1 {
     margin-top: 3em;
     padding-bottom: 1em;
-    text-align: auto;
+    text-align: center;
+    margin-left: 5em;
     
 }
+
 .colflip2 {
     margin-top: 3em;
     padding-bottom: 1em;
