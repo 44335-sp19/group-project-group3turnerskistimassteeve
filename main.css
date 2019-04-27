@@ -55,6 +55,15 @@ a:hover {
     padding-left: 10em;
     text-align: right;
 }
+.sp {
+    margin-top: 1em;
+    font-size: 50px;
+}
+.contact {
+    margin-top: 3em;
+    border-top: 1px solid;
+    text-align: center;
+}
 .jumbo-down {
     margin-top: 3.5em;
 }
