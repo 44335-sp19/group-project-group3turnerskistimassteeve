@@ -201,6 +201,14 @@ body { font-family: sans-serif; }
 .line {
     border-bottom: 1px solid;
 }
+.headcenter {
+    text-align: center;
+    margin-top: 3em;
+}
+.big {
+    font-size: 50px;
+    margin-bottom: .5em;
+}
 /* horizontal flip */
 .flip-box:hover .flip-box-inner {
   transform: rotateY(180deg);

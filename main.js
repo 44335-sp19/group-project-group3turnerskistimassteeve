@@ -27,6 +27,13 @@ jQuery(document).ready(function () {
   });
 });
 ///////////////////
+$(document).ready(function (){
+    $(".changecolor").hover(function (){
+        $(this).css("color", "green");
+    }, function (){
+        $(this).css("color", "black");
+    });
+});
 
 // Cassidy jQuery //
 $(document).ready(function () {
@@ -42,6 +49,7 @@ $(document).ready(function () {
   });
 });
 ///////////////////
+
 
 window.onload = function() {
 document.getElementById('coltonindexpic').addEventListener('mouseover', function () {
