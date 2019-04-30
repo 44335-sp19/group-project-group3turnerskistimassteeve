@@ -84,6 +84,15 @@ document.getElementById('kenyaindexpic').addEventListener('mouseout', function (
 };
 
 
+$(document).ready(function (){
+    $(".p").hover(function (){
+        $(this).css("color", "green");
+    }, function (){
+        $(this).css("color", "black");
+    });
+});
+
+
 
 
 
